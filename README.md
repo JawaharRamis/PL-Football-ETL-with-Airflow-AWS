@@ -3,12 +3,12 @@
 This project uses Apache Airflow for orchestrating an ETL (Extract, Transform, Load) process related to Premier League football data. The ETL process retrieves stats and other information via an API, uploads it to an S3 bucket, and triggers a Glue job for further processing and finally visualised in AWS Quicksight.
 
 Table of Contents
-- [Prerequisites]
-- [Project Structure]
-- [Installation]
-- [Usage]
-- [DAG Overview]
-- [Contributing]
+- [Prerequisites](#prerequisites)
+- [Project Structure](#prerequisites)
+- [Installation](#prerequisites)
+- [Usage](#prerequisites)
+- [DAG Overview](#prerequisites)
+- [Contributing](#prerequisites)
 
 Before you begin, ensure you have the following dependencies installed:
 
