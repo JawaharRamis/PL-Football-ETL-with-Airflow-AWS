@@ -59,7 +59,7 @@ The processed data is fed into Amazon Quicksight, a robust business intelligence
 ## Project Configuration
 Configuring your football data ETL project involves setting up various components to ensure smooth execution. Below, we provide guidance on the key configuration aspects:
 
-###1. Environment Variables
+###  1. Environment Variables
 Define the following environment variables to securely store sensitive information and project-specific configurations:
 
 - FOOTBALL_API_KEY: API key for accessing football data via the RapidAPI platform.
@@ -79,3 +79,23 @@ Set up Amazon Quicksight with the appropriate permissions to access the processe
 
 ### 5. RapidAPI Configuration
 Sign up for a RapidAPI account and obtain an API key. Ensure that your RapidAPI account has access to the football API used in your project.
+
+## Dashboard Preview in Amazon QuickSight
+
+The real-time stock monitoring dashboard provides a comprehensive view of stock prices and key metrics. Below is a preview of the dashboard:
+
+Visualizing the processed football data is a crucial aspect of deriving meaningful insights. Amazon QuickSight, a powerful business intelligence tool, allows you to create interactive and dynamic dashboards for enhanced data exploration. Below is a section that provides a preview of what the dashboard in Amazon QuickSight might look like:
+
+- Premier League Standings
+- Premeir League Top scorers
+- Premier League Top Assisters
+- Team performance visualization with GD
+- Upcoming Fixtures
+- Recent Results
+- Key Statistics
+
+![Dashboard Screenshot](images/dashboard.jpg)
+
+![Dashboard Screenshot](images/dashboard.jpg)
+
+
