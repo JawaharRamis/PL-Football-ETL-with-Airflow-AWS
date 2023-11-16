@@ -113,7 +113,7 @@ with DAG(
         s3_bucket="aws-glue-assets-521965996346-eu-central-1",
         iam_role_name="AWSGlueServiceRole-kafka-weather-glue-role",
         region_name="eu-central-1",
-        aws_conn_id='aws_conn'
+        aws_conn_id='aws_conn',
         create_job_kwargs={"GlueVersion": "3.0", "NumberOfWorkers": 2, "WorkerType": "G.1X"},
     )
 
