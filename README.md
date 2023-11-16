@@ -54,3 +54,28 @@ A Glue job is triggered, utilizing the schema obtained from the Glue Crawler. Th
 
 ### 4. Visualization with Quicksight
 The processed data is fed into Amazon Quicksight, a robust business intelligence tool. Quicksight enables intuitive and interactive data visualization, allowing stakeholders to gain valuable insights and make informed decisions based on the football statistics.
+
+
+## Project Configuration
+Configuring your football data ETL project involves setting up various components to ensure smooth execution. Below, we provide guidance on the key configuration aspects:
+
+###1. Environment Variables
+Define the following environment variables to securely store sensitive information and project-specific configurations:
+
+- FOOTBALL_API_KEY: API key for accessing football data via the RapidAPI platform.
+- SEASON: Specify the football season for data retrieval.
+- LEAGUE: Identify the football league for which data is being collected.
+- AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY: AWS credentials for S3 access.
+- AWS_DEFAULT_REGION: AWS region for S3 and Glue operations.
+
+### 2. AWS Glue Configuration
+Configure AWS Glue with the necessary IAM roles and permissions. Ensure that the Glue Crawler and Glue Job have the required access to your S3 bucket.
+
+### 3. AWS S3 Configuration
+Create an S3 bucket to store raw and transformed football data. Set appropriate bucket policies and permissions to allow access from AWS Glue and Apache Airflow.
+
+### 4. Amazon Quicksight Configuration
+Set up Amazon Quicksight with the appropriate permissions to access the processed data in your S3 bucket. Configure data sources and datasets within Quicksight to facilitate visualization.
+
+### 5. RapidAPI Configuration
+Sign up for a RapidAPI account and obtain an API key. Ensure that your RapidAPI account has access to the football API used in your project.
