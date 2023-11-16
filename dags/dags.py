@@ -114,7 +114,7 @@ with DAG(
         iam_role_name="AWSGlueServiceRole-kafka-weather-glue-role",
         region_name="eu-central-1",
         aws_conn_id='aws_conn'
-        # create_job_kwargs={"GlueVersion": "3.0", "NumberOfWorkers": 2, "WorkerType": "G.1X"},
+        create_job_kwargs={"GlueVersion": "3.0", "NumberOfWorkers": 2, "WorkerType": "G.1X"},
     )
 
     end_operator = EmptyOperator(
