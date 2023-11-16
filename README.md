@@ -5,10 +5,8 @@ This project uses Apache Airflow for orchestrating an ETL (Extract, Transform, L
 ## Table of Contents
 
 - [Prerequisites](#prerequisites)
-- [Project Structure](#project-structure)
 - [Installation](#installation)
-- [Usage](#usage)
-- [DAG Overview](#dag-overview)
+- [Project Overview](#dag-overview)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -19,23 +17,6 @@ Before you begin, ensure you have the following dependencies installed:
 - [Apache Airflow](https://airflow.apache.org/)
 - [AWS CLI](https://aws.amazon.com/cli/)
 - [Python](https://www.python.org/)
-
-## Project Structure
-
-/airflow-football-etl
-|-- dags
-| -- football_etl_dag.py |-- plugins | |-- operators | | -- upload_xcom_to_s3_operator.py
-| |-- sensors
-| | -- custom_sensor.py | -- init.py
-|-- scripts
-| -- foot_api_etl.py |-- README.md |-- requirements.txt -- .gitignore
-
-
-- **dags:** Contains the Airflow DAG definition file.
-- **plugins:** Custom Airflow operators and sensors.
-- **scripts:** External scripts or modules used in the project.
-- **README.md:** Project documentation.
-- **requirements.txt:** Python dependencies.
 
 ## Getting Started
 
@@ -53,4 +34,19 @@ To get started with this project, follow these steps:
 
    ```bash
    docker-compose up -d
-   ```
+   
+/airflow-football-etl
+|-- dags
+|   `-- football_etl_dag.py
+|-- plugins
+|   |-- operators
+|   |   `-- upload_xcom_to_s3_operator.py
+|   |-- sensors
+|   |   `-- custom_sensor.py
+|   `-- __init__.py
+|-- scripts
+|   `-- foot_api_etl.py
+|-- README.md
+|-- requirements.txt
+`-- .gitignore
+
