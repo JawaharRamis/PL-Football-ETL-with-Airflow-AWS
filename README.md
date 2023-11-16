@@ -94,8 +94,8 @@ Visualizing the processed football data is a crucial aspect of deriving meaningf
 - Recent Results
 - Key Statistics
 
-![Dashboard Screenshot](images/dashboard.jpg)
+![Dashboard Screenshot](images/quicksight-1.png)
 
-![Dashboard Screenshot](images/dashboard.jpg)
+![Dashboard Screenshot](images/quicksight-1.png)
 
 
