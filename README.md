@@ -37,21 +37,20 @@ Before you begin, ensure you have the following dependencies installed:
 - **README.md:** Project documentation.
 - **requirements.txt:** Python dependencies.
 
-## Installation
+## Getting Started
 
-1. Clone the repository:
+To get started with this project, follow these steps:
+
+1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/yourusername/airflow-football-etl.git
-   cd airflow-football-etl
+   git clone [(https://github.com/JawaharRamis/PL-Football-ETL-with-Airflow-AWS.git)]
+   ```
 
-DAG Overview
-The main DAG file (dags/football_etl_dag.py) orchestrates the ETL process. It consists of several tasks, including retrieving data, uploading to S3, and triggering a Glue job. The tasks are organized into task groups for clarity.
+2. Change to the project directory:
 
-##The DAG execution flow:
-start_operator >> retrieve_task_group >> upload_task_group >> submit_glue_job >> end_operator
-start_operator: Initializes the DAG.
-retrieve_task_group: Task group for retrieving football data.
-upload_task_group: Task group for uploading data to S3.
-submit_glue_job: Submits a Glue job for further processing.
-end_operator: Marks the end of the DAG execution.
+3. Run the Docker Compose file to set up the project environment:
+
+   ```bash
+   docker-compose up -d
+   ```
