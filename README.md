@@ -58,7 +58,7 @@ The processed data is fed into Amazon Quicksight, a robust business intelligence
 
 
 ## Project Configuration
-Configuring your football data ETL project involves setting up various components to ensure smooth execution. Below, we provide guidance on the key configuration aspects:
+Configuring your football data ETL project involves setting up various components to ensure smooth execution. Below, guidance on the key configuration aspects are listed:
 
 ###  1. Environment Variables
 Define the following environment variables to securely store sensitive information and project-specific configurations:
