@@ -5,10 +5,11 @@ This project uses Apache Airflow for orchestrating an ETL (Extract, Transform, L
 ## Table of Contents
 
 - [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Project Overview](#dag-overview)
+- [Getting Started](#installation)
+- [Project Workflow](#dag-overview)
+- [Project Configuration](#configuration)
+- [Dashboard Preview in Amazon QuickSight](#dashboard)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Prerequisites
 
@@ -98,4 +99,11 @@ Visualizing the processed football data is a crucial aspect of deriving meaningf
 
 ![Dashboard Screenshot](images/quicksight-1.png)
 
+## Contributing
+
+Contributions to this project are welcome! To contribute:
+
+    - Fork the repository.
+    - Create a new branch for your feature or bug fix.
+    - Make your changes and submit a pull request.
 
