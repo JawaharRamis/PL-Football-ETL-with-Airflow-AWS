@@ -26,7 +26,7 @@ To get started with this project, follow these steps:
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone [(https://github.com/JawaharRamis/PL-Football-ETL-with-Airflow-AWS.git)]
+   git clone https://github.com/JawaharRamis/PL-Football-ETL-with-Airflow-AWS.git
    ```
 
 2. Change to the project directory:
